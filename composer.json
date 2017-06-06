@@ -1,0 +1,25 @@
+{
+  "name": "brunocouty/busca-via-cep",
+  "description": "Encontre os dados de um endereço a partir do CEP!",
+  "authors": [
+    {
+      "name": "Bruno Couty",
+      "email": "brunocouty@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "guzzlehttp/guzzle": "~6.0",
+    "php": ">=5.5.9",
+    "illuminate/contracts": "~5.1",
+    "illuminate/http": "~5.1",
+    "illuminate/support": "~5.1",
+    "illuminate/database": "~5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "BrunoCouty\\BuscaViaCep\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
